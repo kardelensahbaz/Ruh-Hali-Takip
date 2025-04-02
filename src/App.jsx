@@ -27,6 +27,7 @@ export default function App() {
         {diaryData.map((day) => <DiaryCard
         key={day.id}
         date={day.date}
+        rating={day.rating}
         emotions={day.emotions}
         activities={day.activities}
         note={day.note}
